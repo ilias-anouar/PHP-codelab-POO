@@ -34,6 +34,8 @@ class Vegetable {
         $this->name = $name;
     }
 }
+$potato = new Vegetable('potato', 'Brown');
+var_dump($potato);
 ?>
 <?php
 // class Fruit {
